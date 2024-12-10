@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--color-rojo:#c81f26;
+	--color-verde: #00b494;
+	--color-titulos:#2a2a32;
+	--color-contenido: #2a2a32;
+}
+
+
+
+h1{
+	font-family:  "Allura", serif;
+	font-size: 110px;
+}
+
+h3{
+	font-family: "Montserrat", serif;
+	color: #fff;
+	font-size: 53px;
+	font-weight: 300;
+	line-height: 0;
+}
+
+p{
+	font-family: "Montserrat", serif;
+}
+
+.btn-menta{
+	background-color: var(--color-verde);
+	color: #fff;
+	border-radius: 20px;
+	padding: 10px 25px;
+	border: none;
+	text-transform: uppercase;
+	font-family: "Montserrat", serif;
+	font-weight: 600;
+	font-size: 8px;
+	letter-spacing: 2px;
+	
+}
+
+#hero p{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 13px;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	letter-spacing: 2px;
+}
+
+.column{
+	background-color: #F6F6F6;
+	padding: 25px;
+    text-align: center;
+}
+
+#gifts{
+	background-image: url("../img/gift-box.png");
+	background-position: center top, left bottom;
+	background-size: 800px;
+	background-repeat: no-repeat;
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 40px;
+}
+
+#gifts .text-rojo{
+	margin-top: 70px;
+}
+
+.margin-gift{
+	margin-top: 350px;
+}
+
+.descuento{
+	font-weight: 600;
+	color: var(--color-rojo);
+}
+
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #FFF;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+.titulos-gifts{
+	font-family: "Montserrat", serif;
+	font-weight: 500;
+	font-size: 24px;
+	margin: 20px 0;
+}
+.text-rojo{
+	text-transform: uppercase;
+	font-family: "Montserrat", serif;
+	font-weight: 700;
+	font-size: 9px;
+	letter-spacing: 2px;
+	color: var(--color-rojo);
+}
+
+.precio{
+	text-transform: uppercase;
+	font-family: "Montserrat", serif;
+	font-weight: 700;
+	font-size: 11px;
+	color: var(--color-rojo);
+}
+
+.tachado{
+	color: #000;
+	text-decoration: line-through;
+}
+
+.descripcion{
+	font-family: "Montserrat", serif;
+	font-weight: 400;
+	font-size: 10px;
+	color: var(--color-contenido);
+	margin-top: 10px;
+}
+
+.titulo{
+	font-family: "Montserrat", serif;
+	font-weight: 500;
+	font-size: 25px;
+	color: var(--color-titulos);
+	margin-bottom: 30px;
+	text-align: center
+}
+
+i{
+	margin: -5;
+	color: var(--color-verde);
+	font-size: 12px;
+}
+#CTA p{
+	font-family: "Montserrat", serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: var(--color-contenido);
+	margin-bottom: 100px;
+	text-align: center;
+	margin-top: -20px;
+}
+#CTA{
+	background-image: url("../img/sub-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 6%;
+}
+
+#arrivals{
+	padding: 8%;
+}
+
+.text-rojo-g{
+	text-transform: uppercase;
+	font-family: "Montserrat", serif;
+	font-weight: 700;
+	font-size: 32px;
+	letter-spacing: 2px;
+	color: var(--color-rojo);
+}
+
+
+
+#instagram{
+	padding: 40px 0;
+}
+#instagram h3{
+	font-size: 24px;
+}
+#instagram p{
+	font-weight: 300;
+}
+#instagram i{
+	color: var(--color-rojo);
+	font-size: 40px;
+}
+
+footer{
+	background-color: #FAFAFA;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+footer p span{
+	color: var(--color-rojo);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
